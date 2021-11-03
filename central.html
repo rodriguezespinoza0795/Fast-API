@@ -1,0 +1,65 @@
+<html>
+
+<head>
+	<title>Central </title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<header>
+		<label class='title-label'>Central CMS Information</label>
+		<label class='detail-label'>Last Run: </label><label id='last_run_time'></label>
+		<style>
+			.copiable {
+				width: 100%;
+				height: 85px;
+				background: none;
+				border: none;
+			}
+		</style>
+	</header>
+	<br>
+	<hr>
+	<br>
+	<section class="cards_container">
+		<center>
+			<div class="card">
+				<center>
+					<button class='copiable' id='card_rta'>
+						<h1 class="title">RTA</h1>
+						<p class="extention">Running</p>
+					</button>
+				</center>
+			</div>
+			<div class="card" id='card_calls'>
+				<center>
+					<button class='copiable' id='card_calls'>
+						<h1 class="title">Calls</h1>
+						<p class="extention">Running</p>
+					</button>
+				</center>
+			</div>
+			<div class="card">
+				<center>
+					<button class='copiable' id='card_login'>
+						<h1 class="title">Login Logout</h1>
+						<p class="extention">Running</p>
+					</button>
+				</center>
+			</div>
+
+		</center>
+
+		<br>
+		<hr>
+		<br>
+		<label class='detail-label'>Last Time Start:</label><label id='last_start_time'></label><br>
+		<label class='detail-label'>Last Time End:</label><label id='last_end_time'></label>
+	</section>
+	<script src="central.js"></script>
+</body>
+<footer>
+</footer>
+
+</html>
